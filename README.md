@@ -8,10 +8,13 @@ Taylor Series Truncation Error and Finite Difference Derivative Analysis
 
 ## Project 2
 Polynomial & Rational Interpolation with Numerical Integration and Quadrature Analysis
-- **Problem 1:** Applied polynomial and rational interpolation methods to approximate the function  
-\( y = \frac{1}{1 + 25x^2} \) on the interval \([-1,1]\), comparing accuracy using 5 and 20 equally spaced points.  
+- **Problem 1:** Applied polynomial and rational interpolation methods to approximate a sharply varying function on the interval \([-1,1]\), comparing accuracy using 5 and 20 equally spaced points.  
 - **Problem 2:** Derived a numerical quadrature formula with Heaviside calculus and compared it to Simpson’s rule for integration over \([0, 2h]\).
 
+## Project 3
+Numerical Integration of 1D and 2D Functions
+- **Problem 1:** Numerically evaluated a set of one-dimensional integrals using adaptive quadrature (`qromo`) and Gaussian Quadrature. Explored convergence behavior and applied a transformation to improve performance for a slowly converging integral.
+- **Problem 2:** Computed a two-dimensional integral over an elliptical region to high precision, using a numerical integration method of choice. Tracked the number of function evaluations and reported the computed result.
 
 ## Tools
 - MATLAB for coding, plotting, and generating HTML reports.
